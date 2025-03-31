@@ -1,0 +1,1 @@
+-e ".vs/\nbin/\nobj/\n*.suo\n*.user\nappsettings.Development.json\nappsettings.local.json\nMigrations/\n# Ignora arquivos do Rider (se usar)\n.idea/\n# Ignora logs e temp files\nlogs/\n*.log\ntemp/" 
