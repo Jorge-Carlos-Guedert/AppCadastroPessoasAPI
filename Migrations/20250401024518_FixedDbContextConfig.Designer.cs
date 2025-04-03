@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppCadastroPessoasAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250330012241_CorrecaoCalendario")]
-    partial class CorrecaoCalendario
+    [Migration("20250401024518_FixedDbContextConfig")]
+    partial class FixedDbContextConfig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace AppCadastroPessoasAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Calendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.Calendario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -48,7 +48,7 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.ToTable("Calendario");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DataEspecificaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DataEspecificaCalendario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -59,17 +59,17 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.Property<int>("CalendarioId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Dia")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CalendarioId");
 
-                    b.ToTable("DataEspecificaCalendario");
+                    b.ToTable("DatasEspecificas");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DiaSemanaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DiaSemanaCalendario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -88,10 +88,10 @@ namespace AppCadastroPessoasAPI.Migrations
 
                     b.HasIndex("CalendarioId");
 
-                    b.ToTable("DiaSemanaCalendario");
+                    b.ToTable("DiasSemana");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Horario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.Horario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -100,9 +100,11 @@ namespace AppCadastroPessoasAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("DataEspecificaCalendarioId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("DiaSemanaCalendarioId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Hora")
@@ -118,7 +120,10 @@ namespace AppCadastroPessoasAPI.Migrations
 
                     b.HasIndex("DiaSemanaCalendarioId");
 
-                    b.ToTable("Horario");
+                    b.ToTable("Horarios", t =>
+                        {
+                            t.HasCheckConstraint("CK_Horario_Exclusividade", "CASE WHEN [DiaSemanaCalendarioId] IS NOT NULL THEN 1 ELSE 0 END + CASE WHEN [DataEspecificaCalendarioId] IS NOT NULL THEN 1 ELSE 0 END = 1");
+                        });
                 });
 
             modelBuilder.Entity("AppCadastroPessoasAPI.Models.Pessoa", b =>
@@ -153,9 +158,9 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.ToTable("Pessoas");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DataEspecificaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DataEspecificaCalendario", b =>
                 {
-                    b.HasOne("AppCadastroPessoasAPI.Models.Calendario", "Calendario")
+                    b.HasOne("AppCadastroPessoasAPI.Models.Entities.Calendario", "Calendario")
                         .WithMany("DatasEspecificas")
                         .HasForeignKey("CalendarioId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -164,9 +169,9 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.Navigation("Calendario");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DiaSemanaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DiaSemanaCalendario", b =>
                 {
-                    b.HasOne("AppCadastroPessoasAPI.Models.Calendario", "Calendario")
+                    b.HasOne("AppCadastroPessoasAPI.Models.Entities.Calendario", "Calendario")
                         .WithMany("DiasSemana")
                         .HasForeignKey("CalendarioId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -175,34 +180,38 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.Navigation("Calendario");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Horario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.Horario", b =>
                 {
-                    b.HasOne("AppCadastroPessoasAPI.Models.DataEspecificaCalendario", "DataEspecificaCalendario")
+                    b.HasOne("AppCadastroPessoasAPI.Models.Entities.DataEspecificaCalendario", "DataEspecificaCalendario")
                         .WithMany("Horarios")
-                        .HasForeignKey("DataEspecificaCalendarioId");
+                        .HasForeignKey("DataEspecificaCalendarioId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
 
-                    b.HasOne("AppCadastroPessoasAPI.Models.DiaSemanaCalendario", "DiaSemanaCalendario")
+                    b.HasOne("AppCadastroPessoasAPI.Models.Entities.DiaSemanaCalendario", "DiaSemanaCalendario")
                         .WithMany("Horarios")
-                        .HasForeignKey("DiaSemanaCalendarioId");
+                        .HasForeignKey("DiaSemanaCalendarioId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
 
                     b.Navigation("DataEspecificaCalendario");
 
                     b.Navigation("DiaSemanaCalendario");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Calendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.Calendario", b =>
                 {
                     b.Navigation("DatasEspecificas");
 
                     b.Navigation("DiasSemana");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DataEspecificaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DataEspecificaCalendario", b =>
                 {
                     b.Navigation("Horarios");
                 });
 
-            modelBuilder.Entity("AppCadastroPessoasAPI.Models.DiaSemanaCalendario", b =>
+            modelBuilder.Entity("AppCadastroPessoasAPI.Models.Entities.DiaSemanaCalendario", b =>
                 {
                     b.Navigation("Horarios");
                 });

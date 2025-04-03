@@ -1,5 +1,5 @@
 ﻿using AppCadastroPessoasAPI.Data;
-
+using AppCadastroPessoasAPI.Models.DTOs;
 using AppCadastroPessoasAPI.Models.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -34,7 +34,7 @@ namespace AppCadastroPessoasAPI.Controllers
 
         public class DataEspecificaDTO
         {
-            public int Dia { get; set; }
+            public DateTime Data { get; set; }
             public List<HorarioDTO> Horarios { get; set; } = new List<HorarioDTO>();
         }
 
@@ -61,25 +61,31 @@ namespace AppCadastroPessoasAPI.Controllers
                     PrimeiroDiaSemana = calendarioDTO.PrimeiroDiaSemana
                 };
 
+                _context.Calendario.Add(novoCalendario);
+                await _context.SaveChangesAsync(); // Salva primeiro para obter o ID
+
                 // Adiciona dias da semana
                 foreach (var diaDTO in calendarioDTO.DiasSemana)
                 {
                     var dia = new DiaSemanaCalendario
                     {
                         Nome = diaDTO.Nome,
-                        Calendario = novoCalendario
+                        CalendarioId = novoCalendario.Id // Usando CalendarioId em vez de Calendario
                     };
+
+                    _context.DiasSemana.Add(dia);
+                    await _context.SaveChangesAsync(); // Salva para obter o ID
 
                     foreach (var horarioDTO in diaDTO.Horarios)
                     {
-                        dia.Horarios.Add(new Horario
+                        _context.Horarios.Add(new Horario
                         {
                             Hora = horarioDTO.Hora,
-                            Vagas = horarioDTO.Vagas
+                            Vagas = horarioDTO.Vagas,
+                            DiaSemanaCalendarioId = dia.Id // Associa ao dia da semana
+                            
                         });
                     }
-
-                    novoCalendario.DiasSemana.Add(dia);
                 }
 
                 // Adiciona datas específicas
@@ -87,23 +93,24 @@ namespace AppCadastroPessoasAPI.Controllers
                 {
                     var data = new DataEspecificaCalendario
                     {
-                        Dia = dataDTO.Dia,
-                        Calendario = novoCalendario
+                        Data = dataDTO.Data, // Usando Data em vez de Dia
+                        CalendarioId = novoCalendario.Id // Usando CalendarioId em vez de Calendario
                     };
+
+                    _context.DatasEspecificas.Add(data);
+                    await _context.SaveChangesAsync(); // Salva para obter o ID
 
                     foreach (var horarioDTO in dataDTO.Horarios)
                     {
-                        data.Horarios.Add(new Horario
+                        _context.Horarios.Add(new Horario
                         {
                             Hora = horarioDTO.Hora,
-                            Vagas = horarioDTO.Vagas
+                            Vagas = horarioDTO.Vagas,
+                            DataEspecificaCalendarioId = data.Id // Associa à data específica
                         });
                     }
-
-                    novoCalendario.DatasEspecificas.Add(data);
                 }
 
-                _context.Calendario.Add(novoCalendario);
                 await _context.SaveChangesAsync();
                 await transaction.CommitAsync();
 
@@ -192,7 +199,7 @@ namespace AppCadastroPessoasAPI.Controllers
                     }).ToList(),
                     DatasEspecificas = calendario.DatasEspecificas.Select(d => new DataEspecificaDTO
                     {
-                        Dia = d.Dia,
+                        Data = d.Data, // Usando Data em vez de Dia
                         Horarios = d.Horarios.Select(h => new HorarioDTO
                         {
                             Hora = h.Hora,

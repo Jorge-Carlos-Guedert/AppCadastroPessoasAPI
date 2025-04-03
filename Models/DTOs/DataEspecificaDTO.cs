@@ -2,7 +2,7 @@
 {
     public class DataEspecificaDTO
     {
-        public int Dia { get; set; }
+        public DateTime Data { get; set; } // Alterado de 'int Dia' para 'DateTime Data'
         public List<HorarioDTO> Horarios { get; set; } = new List<HorarioDTO>();
     }
 }

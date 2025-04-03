@@ -56,8 +56,8 @@ namespace AppCadastroPessoasAPI.Migrations
                     b.Property<int>("CalendarioId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Dia")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("Data")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
@@ -97,11 +97,9 @@ namespace AppCadastroPessoasAPI.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("DataEspecificaCalendarioId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("DiaSemanaCalendarioId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Hora")
@@ -178,15 +176,11 @@ namespace AppCadastroPessoasAPI.Migrations
                 {
                     b.HasOne("AppCadastroPessoasAPI.Models.Entities.DataEspecificaCalendario", "DataEspecificaCalendario")
                         .WithMany("Horarios")
-                        .HasForeignKey("DataEspecificaCalendarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DataEspecificaCalendarioId");
 
                     b.HasOne("AppCadastroPessoasAPI.Models.Entities.DiaSemanaCalendario", "DiaSemanaCalendario")
                         .WithMany("Horarios")
-                        .HasForeignKey("DiaSemanaCalendarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DiaSemanaCalendarioId");
 
                     b.Navigation("DataEspecificaCalendario");
 

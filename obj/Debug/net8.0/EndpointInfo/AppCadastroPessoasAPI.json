@@ -381,9 +381,9 @@
       "DataEspecificaDTO": {
         "type": "object",
         "properties": {
-          "dia": {
-            "type": "integer",
-            "format": "int32"
+          "data": {
+            "type": "string",
+            "format": "date-time"
           },
           "horarios": {
             "type": "array",

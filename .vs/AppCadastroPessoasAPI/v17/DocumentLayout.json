@@ -3,44 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\calendariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\calendariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\calendariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\dataespecificadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\dataespecificadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\diasemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\diasemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\20250402223837_nullablehorario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\20250402223837_nullablehorario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\20250401024518_fixeddbcontextconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\20250401024518_fixeddbcontextconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\diasemanacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\diasemanacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\dataespecificacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\dataespecificacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\diasemanacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\diasemanacalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\entities\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\entities\\calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\dataespecificadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\dataespecificadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\diasemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\diasemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\dtos\\calendariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\dtos\\calendariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\isadminrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:controllers\\pessoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:models\\configurarcalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|c:\\users\\joca1\\dev\\projetos\\escalas\\appcadastropessoasapi\\migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01F6D0D4-6FDD-47A0-BFD8-4683216F5840}|AppCadastroPessoasAPI.csproj|solutionrelative:migrations\\20250301203529_addisadmintopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,72 +102,20 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T03:27:27.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataEspecificaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DataEspecificaDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\DataEspecificaDTO.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DataEspecificaDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\DataEspecificaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T03:00:43.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DiaSemanaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DiaSemanaDTO.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\DiaSemanaDTO.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DiaSemanaDTO.cs",
-              "RelativeToolTip": "Models\\DTOs\\DiaSemanaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T03:00:03.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Horario.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\Horario.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Horario.cs",
               "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\Horario.cs",
               "RelativeToolTip": "Models\\Entities\\Horario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T02:57:40.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalendarioController.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\CalendarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CalendarioController.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\CalendarioController.cs",
-              "RelativeToolTip": "Controllers\\CalendarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:33:10.996Z"
+              "WhenOpened": "2025-03-30T02:57:40.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -169,9 +125,10 @@
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:10:12.618Z"
+              "WhenOpened": "2025-03-19T00:10:12.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -181,49 +138,118 @@
               "RelativeDocumentMoniker": "Models\\Entities\\DataEspecificaCalendario.cs",
               "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\DataEspecificaCalendario.cs",
               "RelativeToolTip": "Models\\Entities\\DataEspecificaCalendario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T02:56:44.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "CalendarioController.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\CalendarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalendarioController.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\CalendarioController.cs",
+              "RelativeToolTip": "Controllers\\CalendarioController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:33:10.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T00:28:03.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250402223837_NullableHorario.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250402223837_NullableHorario.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250402223837_NullableHorario.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250402223837_NullableHorario.cs",
+              "RelativeToolTip": "Migrations\\20250402223837_NullableHorario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T22:38:40.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DiaSemanaCalendario.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\DiaSemanaCalendario.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\DiaSemanaCalendario.cs",
               "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\DiaSemanaCalendario.cs",
               "RelativeToolTip": "Models\\Entities\\DiaSemanaCalendario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T02:55:37.659Z"
+              "WhenOpened": "2025-03-30T02:55:37.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalendarioDTOs.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\CalendarioDTOs.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\CalendarioDTOs.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\CalendarioDTOs.cs",
-              "RelativeToolTip": "Models\\DTOs\\CalendarioDTOs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "20250401024518_FixedDbContextConfig.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250401024518_FixedDbContextConfig.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250401024518_FixedDbContextConfig.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250401024518_FixedDbContextConfig.cs",
+              "RelativeToolTip": "Migrations\\20250401024518_FixedDbContextConfig.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowF0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T02:50:39.603Z"
+              "WhenOpened": "2025-04-02T22:31:46.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T00:26:46.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Calendario.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\Calendario.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Calendario.cs",
               "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Entities\\Calendario.cs",
               "RelativeToolTip": "Models\\Entities\\Calendario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T00:57:58.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
+              "Title": "DataEspecificaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DataEspecificaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\DataEspecificaDTO.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DataEspecificaDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\DataEspecificaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:00:43.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ConfigurarCalendario.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\ConfigurarCalendario.cs",
               "RelativeDocumentMoniker": "Models\\ConfigurarCalendario.cs",
@@ -235,7 +261,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "DiaSemanaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DiaSemanaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\DiaSemanaDTO.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\DiaSemanaDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\DiaSemanaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:00:03.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalendarioDTOs.cs",
+              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\CalendarioDTOs.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CalendarioDTOs.cs",
+              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\DTOs\\CalendarioDTOs.cs",
+              "RelativeToolTip": "Models\\DTOs\\CalendarioDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T02:50:39.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "PessoasController.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Controllers\\PessoasController.cs",
               "RelativeDocumentMoniker": "Controllers\\PessoasController.cs",
@@ -247,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IsAdminRequest.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\IsAdminRequest.cs",
               "RelativeDocumentMoniker": "Models\\IsAdminRequest.cs",
@@ -259,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Models\\LoginRequest.cs",
@@ -271,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Pessoa.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Models\\Pessoa.cs",
               "RelativeDocumentMoniker": "Models\\Pessoa.cs",
@@ -283,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -295,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -307,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -316,18 +366,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-01T20:50:05.514Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250301203529_AddIsAdminToPessoa.cs",
-              "DocumentMoniker": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "ToolTip": "C:\\Users\\joca1\\dev\\projetos\\escalas\\AppCadastroPessoasAPI\\Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "RelativeToolTip": "Migrations\\20250301203529_AddIsAdminToPessoa.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:51:05.781Z"
             }
           ]
         }

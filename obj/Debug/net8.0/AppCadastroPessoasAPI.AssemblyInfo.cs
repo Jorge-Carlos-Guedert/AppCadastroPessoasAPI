@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppCadastroPessoasAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6a23d4c84f0f94ef31c903664928f5eb7d80ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a93865d374256bcf4cefb1937e0d22473924250")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppCadastroPessoasAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppCadastroPessoasAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

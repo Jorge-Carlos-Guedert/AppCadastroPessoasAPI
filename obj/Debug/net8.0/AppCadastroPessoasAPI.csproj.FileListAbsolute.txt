@@ -81,3 +81,4 @@ C:\Users\joca1\dev\projetos\escalas\AppCadastroPessoasAPI\obj\Debug\net8.0\refin
 C:\Users\joca1\dev\projetos\escalas\AppCadastroPessoasAPI\obj\Debug\net8.0\AppCadastroPessoasAPI.pdb
 C:\Users\joca1\dev\projetos\escalas\AppCadastroPessoasAPI\obj\Debug\net8.0\AppCadastroPessoasAPI.genruntimeconfig.cache
 C:\Users\joca1\dev\projetos\escalas\AppCadastroPessoasAPI\obj\Debug\net8.0\ref\AppCadastroPessoasAPI.dll
+C:\Users\joca1\dev\projetos\escalas\AppCadastroPessoasAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

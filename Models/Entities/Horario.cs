@@ -3,23 +3,20 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AppCadastroPessoasAPI.Models.Entities
 {
+   
+
     public class Horario
     {
-        [Key]
         public int Id { get; set; }
-
-        [Required]
-        public string Hora { get; set; } // Formato HH:mm
-
-        [Required]
+        public string Hora { get; set; }
         public int Vagas { get; set; }
 
-        [ForeignKey("DiaSemanaCalendario")]
+        // Tornar as FKs opcionais
         public int? DiaSemanaCalendarioId { get; set; }
-        public virtual DiaSemanaCalendario DiaSemanaCalendario { get; set; }
-
-        [ForeignKey("DataEspecificaCalendario")]
         public int? DataEspecificaCalendarioId { get; set; }
+
+        // Propriedades de navegação
+        public virtual DiaSemanaCalendario DiaSemanaCalendario { get; set; }
         public virtual DataEspecificaCalendario DataEspecificaCalendario { get; set; }
     }
 }
